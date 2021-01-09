@@ -4,8 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .body {
+  width: 80%;
+  height: 200vw;
+  background-color: cyan;
+  position: relative;
+  
+}
+
+.body .fijada {
+  position: fixed;
+  width:30%;
+  height: 30px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.top-left {
+  top:0;
+  left:0;
+}
+
+.center {
+  top:45vh;
+  left:40vw;
+}
+
+.bottom-right {
+ bottom:0;
+ right:0;
+}
+    </style>
 </head>
 <body>
-    
+    <div class="body">
+  
+        <p> Fondo </p>
+        <p> Fondo </p>
+        <p> Fondo </p>
+        <p> Fondo </p>
+        <p> Fondo </p>
+      <div>
+      
+      <nav class="fijada top-left">
+          <p> Fijada 1</p>
+      </nav>
+      
+      <nav class="fijada center">
+          <p> Fijada 2 </p>
+      </nav>
+      
+      <nav class="fijada bottom-right">
+          <p> Fijada 3</p>
+      </nav>
 </body>
 </html>
